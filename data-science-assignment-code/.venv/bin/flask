@@ -1,0 +1,6 @@
+#!/Users/sanjay.yadav01/Documents/Nagarro/NAGP/Assignments/AI&ML/SL/data-science-assignment/data-science-assignment-code/.venv/bin/python
+import sys
+from flask.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
